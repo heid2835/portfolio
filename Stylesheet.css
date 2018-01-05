@@ -1,0 +1,775 @@
+/*
+#4e4797
+#c0b9e1
+#262c1f
+*/
+
+body {
+    font-family: 'fogno7', serif;
+}
+
+@font-face {
+    font-family: 'fogno7';
+    font-weight: normal;
+    font-style: normal;
+    src: url('font/FoglihtenNo07.woff') format('woff');
+}
+
+ul {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #262c1f;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #f1e7ce;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 10px;
+    border: none;
+    padding: 1px;
+    margin-top: 30px;
+    background-color: #4e4797;
+    opacity: 0.9;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    color: #262c1f;
+    font-family: 'fogno7';
+}
+
+h2 {
+    color: #262c1f;
+    font-family: 'fogno7';
+}
+
+h3 {
+    color: #f1e7ce;
+    font-family: 'fogno7';
+}
+
+#kortwrapper {
+    background-color: #c0b9e1;
+    width: 100vw;
+    height: 900px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*kort*/
+
+#kortet {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortet:hover {
+    background-image: url(kort/010404kort.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortethover {
+    background-image: url(kort/010404kort.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortto {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortto:hover {
+    background-image: url(kort/020304tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.korttohover {
+    background-image: url(kort/020304tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#korttre {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#korttre:hover {
+    background-image: url(kort/020403tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.korttrehover {
+    background-image: url(kort/020403tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortfire {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortfire:hover {
+    background-image: url(kort/030103tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortfirehover {
+    background-image: url(kort/030103tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortfem {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortfem:hover {
+    background-image: url(kort/030202tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortfemhover {
+    background-image: url(kort/030202tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortseks {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortseks:hover {
+    background-image: url(kort/030302tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortsekshover {
+    background-image: url(kort/030302tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortsyv {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortsyv:hover {
+    background-image: url(kort/040106tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortsyvhover {
+    background-image: url(kort/040106tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortotte {
+    background-image: url(kort/bagside.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortotte:hover {
+    background-image: url(kort/040204tarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortottehover {
+    background-image: url(kort/040204tarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+#kortni {
+    background-image: url(kort/migtarot.png);
+    filter: grayscale(100%);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    z-index: 2;
+}
+
+#kortni:hover {
+    background-image: url(kort/info.png);
+    background-size: contain;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+}
+
+.kortnihover {
+    background-image: url(kort/migtarot.png) !important;
+    background-size: contain;
+    filter: grayscale(0%) !important;
+    height: 345.3px;
+    width: 180.5px;
+    position: absolute;
+    bottom: 50%;
+    left: 1%;
+    z-index: 4 !important;
+}
+
+
+/*positions til java*/
+
+.pos1 {
+    bottom: 10%;
+    left: 1%;
+}
+
+.pos1move {
+    animation: pos1move_kf 2s forwards 1;
+}
+
+@keyframes pos1move_kf {
+    0% {
+        bottom: 10%;
+        left: 1%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos2 {
+    bottom: 20%;
+    left: 13%;
+}
+
+.pos2move {
+    animation: pos2move_kf 2s forwards 1;
+}
+
+@keyframes pos2move_kf {
+    0% {
+        bottom: 20%;
+        left: 13%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos3 {
+    bottom: 30%;
+    left: 25%;
+}
+
+.pos3move {
+    animation: pos3move_kf 2s forwards 1;
+}
+
+@keyframes pos3move_kf {
+    0% {
+        bottom: 30%;
+        left: 25%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos4 {
+    bottom: 40%;
+    left: 37%;
+}
+
+.pos4move {
+    animation: pos4move_kf 3s forwards 1;
+}
+
+@keyframes pos4move_kf {
+    0% {
+        bottom: 40%;
+        left: 37%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos5 {
+    bottom: 40%;
+    left: 50%;
+}
+
+.pos5move {
+    animation: pos5move_kf 3s forwards 1;
+}
+
+@keyframes pos5move_kf {
+    0% {
+        bottom: 40%;
+        left: 50%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos6 {
+    bottom: 30%;
+    left: 62%;
+}
+
+.pos6move {
+    animation: pos6move_kf 3s forwards 1;
+}
+
+@keyframes pos6move_kf {
+    0% {
+        bottom: 30%;
+        left: 62%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos7 {
+    bottom: 20%;
+    left: 74%;
+}
+
+.pos7move {
+    animation: pos7move_kf 3s forwards 1;
+}
+
+@keyframes pos7move_kf {
+    0% {
+        bottom: 20%;
+        left: 74%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos8 {
+    bottom: 10%;
+    left: 86%;
+}
+
+.pos8move {
+    animation: pos8move_kf 3s forwards 1;
+}
+
+@keyframes pos8move_kf {
+    0% {
+        bottom: 10%;
+        left: 86%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.pos9 {
+    bottom: 10%;
+    left: 44%;
+}
+
+.pos9move {
+    animation: pos9move_kf 3s forwards 1;
+}
+
+@keyframes pos9move_kf {
+    0% {
+        bottom: 10%;
+        left: 44%;
+    }
+    100% {
+        bottom: 50%;
+        left: 1%;
+    }
+}
+
+.hidepos {
+    display: none;
+}
+
+
+/*tekstboxe*/
+
+#et {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#et h1 {
+    color: #f1e7ce;
+}
+
+#et h2 {
+    color: #f1e7ce;
+}
+
+#to {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#to h1 {
+    color: #f1e7ce;
+}
+
+#to h2 {
+    color: #f1e7ce;
+}
+
+#tre {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#tre h1 {
+    color: #f1e7ce;
+}
+
+#tre h2 {
+    color: #f1e7ce;
+}
+
+#fire {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#fire h1 {
+    color: #f1e7ce;
+}
+
+#fire h2 {
+    color: #f1e7ce;
+}
+
+#fem {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#fem h1 {
+    color: #f1e7ce;
+}
+
+#fem h2 {
+    color: #f1e7ce;
+}
+
+#seks {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#seks h1 {
+    color: #f1e7ce;
+}
+
+#seks h2 {
+    color: #f1e7ce;
+}
+
+#syv {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#syv h1 {
+    color: #f1e7ce;
+}
+
+#syv h2 {
+    color: #f1e7ce;
+}
+
+#otte {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#otte h1 {
+    color: #f1e7ce;
+}
+
+#otte h2 {
+    color: #f1e7ce;
+}
+
+#ni {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 170px;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+#ni h1 {
+    color: #f1e7ce;
+}
+
+#ni h2 {
+    color: #f1e7ce;
+}
+
+#ni ul {
+    color: #f1e7ce;
+}
+
+
+/*Mobilefriendly*/
+
+@media screen and (max-width: 480px) {
+    header {
+        position: fixed;
+        width: 100vw;
+        padding: 10px;
+        border: none;
+        padding: 1px;
+        margin-top: 30px;
+        background-color: #4e4797;
+        opacity: 0.9;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+    }
+}
