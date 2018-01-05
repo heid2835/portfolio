@@ -49,11 +49,6 @@ h2 {
     font-family: 'fogno7';
 }
 
-h3 {
-    color: #f1e7ce;
-    font-family: 'fogno7';
-}
-
 #kortwrapper {
     background-color: #c0b9e1;
     width: 100vw;
@@ -527,7 +522,7 @@ h3 {
 /*tekstboxe*/
 
 #et {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -541,6 +536,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #et h1 {
@@ -551,8 +547,12 @@ h3 {
     color: #f1e7ce;
 }
 
+#et img {
+    float: right;
+}
+
 #to {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -566,6 +566,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #to h1 {
@@ -576,8 +577,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#to img {
+    float: right;
+    margin: 5px;
+}
+
 #tre {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -591,6 +597,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #tre h1 {
@@ -601,8 +608,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#tre img {
+    float: right;
+    margin: 5px;
+}
+
 #fire {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -616,6 +628,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #fire h1 {
@@ -626,8 +639,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#fire img {
+    float: right;
+    margin: 5px;
+}
+
 #fem {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -641,6 +659,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #fem h1 {
@@ -651,8 +670,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#fem img {
+    float: right;
+    margin: 5px;
+}
+
 #seks {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -666,6 +690,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #seks h1 {
@@ -676,8 +701,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#seks img {
+    float: right;
+    margin: 5px;
+}
+
 #syv {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -691,6 +721,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #syv h1 {
@@ -701,8 +732,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#syv img {
+    float: right;
+    margin: 5px;
+}
+
 #otte {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -716,6 +752,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #otte h1 {
@@ -726,8 +763,13 @@ h3 {
     color: #f1e7ce;
 }
 
+#otte img {
+    float: right;
+    margin: 5px;
+}
+
 #ni {
-    width: 70%;
+    width: 75%;
     padding: 10px;
     border: none;
     padding: 10px;
@@ -741,6 +783,7 @@ h3 {
     margin-left: 100px;
     position: absolute;
     z-index: 3;
+    border: 2px solid #f1e7ce;
 }
 
 #ni h1 {
@@ -753,6 +796,11 @@ h3 {
 
 #ni ul {
     color: #f1e7ce;
+}
+
+#ni img {
+    float: right;
+    margin: 5px;
 }
 
 
