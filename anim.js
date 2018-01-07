@@ -1,7 +1,47 @@
-$(window).on("load", startFunc);
+$(window).on("load", mobilecheck);
+
+
+
+function mobilecheck() {
+    console.log("find device");
+
+    if ($(window).width() <= 750) {
+        mobilStartFunc();
+    } else {
+        startFunc();
+    }
+}
+
+function mobilStartFunc() {
+    console.log("Mobil, Kort frem");
+    $("#kortinfo").show;
+    $("#kortet").addClass("mpos1");
+    $("#kortto").addClass("mpos5");
+    $("#korttre").addClass("mpos6");
+    $("#kortfire").addClass("mpos2");
+    $("#kortfem").addClass("mpos3");
+    $("#kortseks").addClass("mpos4");
+    $("#kortsyv").addClass("mpos7");
+    $("#kortotte").addClass("mpos8");
+    $("#kortni").addClass("mpos9");
+
+    $("#et").addClass("hidepos");
+    $("#to").addClass("hidepos");
+    $("#tre").addClass("hidepos");
+    $("#fire").addClass("hidepos");
+    $("#fem").addClass("hidepos");
+    $("#seks").addClass("hidepos");
+    $("#syv").addClass("hidepos");
+    $("#otte").addClass("hidepos");
+    $("#ni").addClass("hidepos");
+
+
+}
 
 function startFunc() {
-    console.log("Kort frem");
+
+    console.log("Computer, Kort frem");
+    $("#kortinfo").hide;
     $("#kortet").addClass("pos1");
     $("#kortto").addClass("pos5");
     $("#korttre").addClass("pos6");
@@ -42,6 +82,8 @@ function startFunc() {
     $("#kortsyv").on("click", KortSyvFunc);
     $("#kortotte").on("click", KortOtteFunc);
     $("#kortni").on("click", KortNiFunc);
+
+
 }
 
 function KortEtFunc() {
