@@ -15,6 +15,18 @@ function mobilecheck() {
 function mobilStartFunc() {
     console.log("Mobil, Kort frem");
     $("#kortinfo").show;
+    $("#kortinfo").removeClass("hideinfo");
+
+    $("#kortet").removeClass("kortethover");
+    $("#kortto").removeClass("korttohover");
+    $("#korttre").removeClass("korttrehover");
+    $("#kortfire").removeClass("kortfirehover");
+    $("#kortfem").removeClass("kortfemhover");
+    $("#kortseks").removeClass("kortsekshover");
+    $("#kortsyv").removeClass("kortsyvhover");
+    $("#kortotte").removeClass("kortottehover");
+    $("#kortni").removeClass("kortnihover");
+
     $("#kortet").addClass("mpos1");
     $("#kortto").addClass("mpos5");
     $("#korttre").addClass("mpos6");
@@ -35,13 +47,93 @@ function mobilStartFunc() {
     $("#otte").addClass("hidepos");
     $("#ni").addClass("hidepos");
 
+    $("#et").removeClass("mobil");
 
+    $("#kortet").on("click", KortEtMobilFunc);
+    $("#kortto").on("click", KortToMobilFunc);
+    $("#korttre").on("click", KortTreMobilFunc);
+    $("#kortfire").on("click", KortFireMobilFunc);
+    $("#kortfem").on("click", KortFemMobilFunc);
+    $("#kortseks").on("click", KortSeksMobilFunc);
+    $("#kortsyv").on("click", KortSyvMobilFunc);
+    $("#kortotte").on("click", KortOtteMobilFunc);
+    $("#kortni").on("click", KortNiMobilFunc);
+}
+
+function KortEtMobilFunc() {
+    $("#kortet").addClass("kortethover");
+    $("#et").removeClass("hidepos");
+    $("#et").addClass("mobilet");
+    $("#et").on("click", mobilStartFunc);
+}
+
+function KortToMobilFunc() {
+    $("#kortto").addClass("korttohover");
+    $("#to").removeClass("hidepos");
+    $("#to").addClass("mobilto");
+    $("#to").on("click", mobilStartFunc);
+}
+
+function KortTreMobilFunc() {
+    console.log("wtf");
+    $("#korttre").addClass("korttrehover");
+    $("#tre").removeClass("hidepos");
+    $("#tre").addClass("mobiltre");
+    $("#tre").on("click", mobilStartFunc);
+}
+
+function KortFireMobilFunc() {
+    console.log("wtf");
+    $("#kortfire").addClass("kortfirehover");
+    $("#fire").removeClass("hidepos");
+    $("#fire").addClass("mobilfire");
+    $("#fire").on("click", mobilStartFunc);
+}
+
+function KortFemMobilFunc() {
+    console.log("wtf");
+    $("#kortfem").addClass("kortfemhover");
+    $("#fem").removeClass("hidepos");
+    $("#fem").addClass("mobilfem");
+    $("#fem").on("click", mobilStartFunc);
+}
+
+function KortSeksMobilFunc() {
+    console.log("wtf");
+    $("#kortseks").addClass("kortsekshover");
+    $("#seks").removeClass("hidepos");
+    $("#seks").addClass("mobilseks");
+    $("#seks").on("click", mobilStartFunc);
+}
+
+function KortSyvMobilFunc() {
+    console.log("wtf");
+    $("#kortsyv").addClass("kortsyvhover");
+    $("#syv").removeClass("hidepos");
+    $("#syv").addClass("mobilsyv");
+    $("#syv").on("click", mobilStartFunc);
+}
+
+function KortOtteMobilFunc() {
+    console.log("wtf");
+    $("#kortotte").addClass("kortottehover");
+    $("#otte").removeClass("hidepos");
+    $("#otte").addClass("mobilotte");
+    $("#otte").on("click", mobilStartFunc);
+}
+
+function KortNiMobilFunc() {
+    console.log("wtf");
+    $("#kortni").addClass("kortnihover");
+    $("#ni").removeClass("hidepos");
+    $("#ni").addClass("mobilni");
+    $("#ni").on("click", mobilStartFunc);
 }
 
 function startFunc() {
 
     console.log("Computer, Kort frem");
-    $("#kortinfo").hide;
+    $("#kortinfo").addClass("hideinfo");
     $("#kortet").addClass("pos1");
     $("#kortto").addClass("pos5");
     $("#korttre").addClass("pos6");

@@ -515,6 +515,150 @@ h2 {
 
 /*tekstboxe*/
 
+.mobilet {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 245px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilto {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 1545px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobiltre {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 1745px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilfire {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 445px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilfem {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 645px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilseks {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 1245px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilsyv {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 2045px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilotte {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 1945px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
+.mobilni {
+    width: 46% !important;
+    padding: 10px;
+    margin-top: 2345px !important;
+    background-color: #4e4797;
+    color: #f1e7ce;
+    opacity: 0.95;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 20px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 3;
+    border: 2px solid #f1e7ce;
+}
+
 #et {
     width: 75%;
     padding: 10px;
@@ -811,48 +955,52 @@ h2 {
     z-index: 1;
 }
 
+.hideinfo {
+    display: none;
+}
+
 .mpos1 {
-    top: 8%;
+    top: 7%;
     left: 3%;
 }
 
 .mpos2 {
-    top: 20%;
+    top: 17%;
     left: 3%;
 }
 
 .mpos3 {
-    top: 32%;
+    top: 27%;
     left: 3%;
 }
 
 .mpos4 {
-    top: 44%;
+    top: 37%;
     left: 3%;
 }
 
 .mpos5 {
-    top: 56%;
+    top: 47%;
     left: 3%;
 }
 
 .mpos6 {
-    top: 68%;
+    top: 57%;
     left: 3%;
 }
 
 .mpos7 {
-    top: 80%;
+    top: 67%;
     left: 3%;
 }
 
 .mpos8 {
-    top: 92%;
+    top: 77%;
     left: 3%;
 }
 
 .mpos9 {
-    top: 104%;
+    top: 87%;
     left: 3%;
 }
 
@@ -863,7 +1011,7 @@ h2 {
     #kortwrapper {
         background-color: #c0b9e1;
         width: 100vw;
-        height: 2900px;
+        height: 3500px;
         position: relative;
         display: flex;
         flex-wrap: wrap;
