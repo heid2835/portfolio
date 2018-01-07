@@ -687,8 +687,6 @@
         position: absolute;
         z-index: 3;
         border: 2px solid #f1e7ce;
-        padding-left: 10px !important;
-        margin-left: 10px !important;
     }
 
     #et h1 {
